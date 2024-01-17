@@ -1,10 +1,7 @@
-import pandas as pd
 import numpy as np
 import joblib
-from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import tensorflow_datasets as tfds
-from persistance.recomendations import HybridModel, CollaborativeFilteringModel, ContentBasedModel
 from persistance.logger import Logger
 from core.constants import COLAB_MODEL_PATH, VECTORIZER_PATH, SCALER_PATH, HYBRID_MODEL_PATH
 

@@ -1,13 +1,6 @@
-from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import LinearRegression
-from surprise import SVD, Dataset, Reader
-from surprise.dump import load
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import numpy as np
-import tensorflow_datasets as tfds
 import joblib
 
 tfidf_vectorizer = TfidfVectorizer()
